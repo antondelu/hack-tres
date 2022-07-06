@@ -1,0 +1,261 @@
+:root {
+--background-color: #f2f6fc;
+--background-color-footer: #212832;
+--background-color-letters: #bdc3c7;
+}
+
+* {
+padding: 0;
+margin: 0;
+}
+
+body{
+    background-color: #F2F6FC;
+}
+
+.section-top-stories{
+    margin: 20px;
+}
+.content-title-top-stories{
+    display: flex;
+    justify-content: space-between;
+}
+.link-top-stories{
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.i{
+flex-direction: column;
+}
+.read-more{
+text-decoration: none;
+}
+
+.img-top-stories{
+    width: 100px;
+    border-radius: 15px;
+}
+
+.componet{
+    display: flex;
+    flex-direction: column;
+}
+.img-info{
+    display: flex;
+    justify-content: flex-end;
+}
+.content-img{
+    margin-left: 1.5rem;
+}
+
+.line{
+    width: 65%;
+}
+
+.cart{
+    display: flex;
+}
+.content-caja{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 150px;
+    
+}
+
+.caja{
+    background-color: #fff;
+    padding: 1.5rem;
+}
+
+.caja h5 {
+    margin-top: 10px;
+    font-weight: 350;
+    font-size: 18px;
+}
+.card-opinion a{
+    text-align: center;
+
+}
+.card-opinion p{
+    text-align: center;
+}
+.card-opinion{
+    display: flex;
+}
+.img-perfil{
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+p{
+    color: #bdc3c7;
+}
+.by-link{
+    color: #bdc3c7;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.span-header-web {
+    background-color: var(--background-color);
+    color: #0061f2;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--background-color-letters);
+    font-weight: 400;
+}
+
+footer p {
+    color: var(--background-color-letters);
+    font-weight: bolder;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color-footer);
+}
+
+.cpyright {
+    display: flex;
+    justify-content: space-between;
+    color: var(--background-color-letters);
+}
+
+#header {
+    background-color: #f2f6fc;
+    padding: 50px 0 0 0;
+    margin-bottom: 80px;
+}
+
+#header-flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+#header #header-flexbox a {
+    text-decoration: none;
+}
+
+#header #header-flexbox a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#header #header-flexbox hr {
+    color: #69707a;
+}
+
+#header-card {
+    max-width: 100vw;
+    max-height: 100vh;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+}
+
+#header .container #header-card #card-header-col a {
+    text-decoration: none;
+}
+
+#header .container #header-card #card-header-col h2 {
+    text-decoration: none;
+    color: #000000;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.card-body h1{
+    text-decoration: none;
+    color: #000000;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+#header .container #header-card #card-header-col a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+}
+
+#header .container #header-card #card-header-col p {
+    color: #69707a;
+}
+
+#card-header-col {
+    padding: 40px;
+}
+
+#header-card-col2 {
+    background-image: url("../img/person-writing.jpg");
+    /* background-size: cover; */
+    background-position: bottom;
+}
+
+#footer-principal::before {
+    content: " ";
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    background-image: url("../img/curveWhite.svg");
+    background-color: var(--background-color);
+    position: absolute;
+    top: 0px;
+}
+
+#footer-principal {
+    background-color: var(--background-color-footer);
+    display: flex;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    padding: 150px 50px 50px 50px;
+}
+
+#footer-form {
+    position: absolute;
+    top: -15%;
+    right: 8%;
+    left: 8%;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+}
+
+#footer-form p {
+    color: var(--background-color-letters);
+    font-weight: 400;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+.content-noti{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-header{
+    display: flex;
+    padding-right: 2.5rem !important;
+    padding-left: 2.5rem !important;
+    
+}
+
