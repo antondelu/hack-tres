@@ -19,6 +19,7 @@ body{
 .content-title-top-stories{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 .link-top-stories{
     font-weight: 500;
@@ -35,7 +36,8 @@ text-decoration: none;
 }
 
 .img-top-stories{
-    width: 100px;
+    width: 80px;
+    margin-left: 10px;
     border-radius: 15px;
 }
 
@@ -47,8 +49,11 @@ text-decoration: none;
     display: flex;
     justify-content: flex-end;
 }
-.content-img{
-    margin-left: 1.5rem;
+
+.img-header{
+    padding-top: 1px;
+    width: 600px;
+    height: 331px;
 }
 
 .line{
@@ -69,6 +74,11 @@ text-decoration: none;
 .caja{
     background-color: #fff;
     padding: 1.5rem;
+    border-radius: 9px 9px 9px 9px;
+-moz-border-radius: 9px 9px 9px 9px;
+-webkit-border-radius: 9px 9px 9px 9px;
+border: 0px solid #000000;
+box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
 }
 
 .caja h5 {
@@ -88,12 +98,17 @@ text-decoration: none;
 }
 .img-perfil{
     width: 40px;
-    margin-right: 10px;
+    margin-right: 5px;
     border-radius: 100%;
 }
-
-p{
+.content-by{
+    display: flex;
+    flex-direction: column;
+}
+.content-by p {
     color: #bdc3c7;
+    margin-right: 70px;
+    justify-content: flex-start;
 }
 .by-link{
     color: #bdc3c7;
@@ -199,10 +214,11 @@ footer p {
 }
 
 #header-card-col2 {
-    background-image: url("../img/person-writing.jpg");
-    /* background-size: cover; */
-    background-position: bottom;
-}
+    background-image: url("../assets/person-writing.jpg");
+    background-size: cover;
+    background-position: center center;
+    }
+
 
 #footer-principal::before {
     content: " ";
@@ -252,10 +268,4 @@ footer p {
     justify-content: space-between;
 }
 
-.content-header{
-    display: flex;
-    padding-right: 2.5rem !important;
-    padding-left: 2.5rem !important;
-    
-}
 
