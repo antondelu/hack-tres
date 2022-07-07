@@ -56,7 +56,7 @@ text-decoration: none;
     display: flex;
 }
 .content-caja{
-    height: 440px;
+    height: 470px;
     justify-content: flex-start;
     align-items: flex-start;
     background-color: #fff;
@@ -68,22 +68,22 @@ text-decoration: none;
     box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
 }
 
-
 .caja h5 {
     margin-top: 10px;
     font-weight: 350;
     font-size: 18px;
 }
-.card-opinion a{
+.card-opinion .link-top-stories{
     margin-left: 10px;
-
 }
+
 .card-opinion p{
     text-align: center;
 }
 .card-opinion{
     display: flex;
     height: 70px;
+    margin: 10px;
 }
 .img-perfil{
     width: 40px;
@@ -108,7 +108,7 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
     width: 300px;  
-    margin-bottom: 10px;
+
 }
 .content-by p {
     align-self: baseline;
@@ -152,6 +152,13 @@ footer p {
     justify-content: center;
     background-color: var(--background-color-footer);
 }
+hr {
+    color: #69707a;
+    }
+    
+    #footer-principal .container h5 {
+        color: #bdc3c7;
+    }
 
 .cpyright {
     display: flex;
