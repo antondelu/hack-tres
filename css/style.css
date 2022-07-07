@@ -65,15 +65,17 @@ text-decoration: none;
 }
 .content-caja{
     display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: red;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-bottom: 150px;
-    
 }
 
 .caja{
     background-color: #fff;
-    padding: 1.5rem;
+    padding: 1rem;
+    height: 200px;
     border-radius: 9px 9px 9px 9px;
 -moz-border-radius: 9px 9px 9px 9px;
 -webkit-border-radius: 9px 9px 9px 9px;
@@ -95,6 +97,7 @@ box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
 }
 .card-opinion{
     display: flex;
+    
 }
 .img-perfil{
     width: 40px;
@@ -251,7 +254,20 @@ footer p {
     border-radius: 5px;
     box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
 }
+#categories{
+    margin-bottom: 100px;
 
+}
+.form-footer{
+    display: flex;
+    height:30px;
+}
+
+.input-footer{
+background-color: #EEF2F8;
+border: none;
+padding: 12px 0 12px 18px;
+}
 #footer-form p {
     color: var(--background-color-letters);
     font-weight: 400;
@@ -268,4 +284,33 @@ footer p {
     justify-content: space-between;
 }
 
+#categories{
+    background-color:#f2f6fc;
+ }
+
+
+h5{
+    font-size: 1.1rem;
+    color: #363d47;
+}
+
+p, .link{
+    font-size: 1rem;
+}
+p{
+    color: #69707a;
+}
+
+.link{
+    color: #0061f2;
+}
+
+
+#categories a{
+    text-decoration: none;
+}
+#categories a:hover {
+text-decoration: underline;
+text-decoration-color: #000000;
+}
 
