@@ -225,7 +225,7 @@ footer p {
     height: 50px;
     width: 100%;
     background: transparent;
-    background-image: url("../img/curveWhite.svg");
+    background-image: url("../assets/curveWhite.svg");
     background-color: var(--background-color);
     position: absolute;
     top: 0px;
